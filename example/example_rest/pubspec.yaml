@@ -2,7 +2,7 @@ name: example_rest
 description: Shelf Plus Example
 
 environment:
-  sdk: ">=3.5.4 <4.0.0"
+  sdk: ">=3.9.0 <4.0.0"
 
 dependencies:
   shelf_plus:
@@ -11,6 +11,6 @@ dependencies:
   uuid: 4.5.1
 
 dev_dependencies:
-  lints: ^5.0.0
+  lints: ^6.0.0
   json_serializable: ^6.8.0
   build_runner: ^2.4.13
