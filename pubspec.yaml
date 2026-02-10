@@ -19,12 +19,7 @@ dependencies:
       url: git@github.com:pieces-app/shelf.git
       path: pkgs/shelf_web_socket
   mime_type: ^1.0.0
-  web_socket_channel:
-    git:
-      url: git@github.com:pieces-app/http.git
-      path: pkgs/web_socket_channel
-      tag_pattern: 'web_socket_channel-v{{version}}'
-    version: ^3.0.4
+  web_socket_channel: ^3.0.3
 
 dev_dependencies:
   lints: ^6.0.0
