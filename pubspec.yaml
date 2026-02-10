@@ -7,7 +7,7 @@ repository: https://github.com/felixblaschke/shelf_plus
 publish_to: none
 
 environment:
-  sdk: ">=3.5.4 <4.0.0"
+  sdk: ">=3.9.0 <4.0.0"
 
 dependencies:
   shelf: ^1.4.1
