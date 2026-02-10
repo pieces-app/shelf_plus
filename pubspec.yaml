@@ -3,6 +3,9 @@ description: Shelf Plus is a quality of life addon for your server-side developm
 version: 1.11.0
 repository: https://github.com/felixblaschke/shelf_plus
 
+# publishable packages can't have git dependencies
+publish_to: none
+
 environment:
   sdk: ">=3.5.4 <4.0.0"
 
@@ -13,7 +16,12 @@ dependencies:
   shelf_hotreload: ^1.5.0
   shelf_web_socket: ^3.0.0
   mime_type: ^1.0.0
-  web_socket_channel: ^3.0.1
+  web_socket_channel:
+    git:
+      url: git@github.com:pieces-app/http.git
+      path: pkgs/web_socket_channel
+      tag_pattern: 'web_socket_channel-v{{version}}'
+    version: ^3.0.4
 
 dev_dependencies:
   lints: ^5.0.0
